@@ -48,7 +48,7 @@ class Desafio {
     List<Item> itens = // gera seus itens aqui
     List<String> emails = // gera seus emails aqui
     
-    Map<String, Integer> resultado = Desafio.calcula(itens, emails);
+    HashMap<String, Integer> resultado = TesteTecnico.calcula(itens, emails);
     System.out.println(xxxxx); // printa o resultado
   }
 }
